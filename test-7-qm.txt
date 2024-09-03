@@ -1,0 +1,13 @@
+M
+2
+3
+//sample where using warp pipe is required
+//castle room 0
+1..
+S.C
+..!
+//castle room 1
+...
+...
+.!.
+

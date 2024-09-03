@@ -1,0 +1,9 @@
+Start in room 0, row 1, column 0
+//castle room 0
+1..
+eeC
+..!
+//castle room 1
+...
+...
+.!.
