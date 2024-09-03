@@ -25,6 +25,7 @@ This project involves implementing a pathfinding game in C++, where Marco must n
 To compile the program, run:
 ```bash
 make
+```bash
 
 ### Running the Program
 To run the program, use one of the following command-line examples:
