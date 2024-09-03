@@ -1,4 +1,4 @@
-# EECS 281 Project 1 - Rescue the Countess
+# Path Finder - Rescue the Countess
 
 ## Project Identifier
 `B99292359FFD910ED13A7E6C7F9705B8742F0D79`
