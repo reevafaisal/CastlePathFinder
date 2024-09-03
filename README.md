@@ -26,6 +26,7 @@ To compile the program, run:
 
 ```bash
 make
+```
 
 ### Running the Program
 To run the program, use one of the following command-line examples:
@@ -67,4 +68,5 @@ To test the program with a specific test file, use the following command:
 
 ```bash
 ./superMarco < test-n-flags.txt > test-n-output.txt
+```
 
