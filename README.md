@@ -35,6 +35,7 @@ To run the program, use one of the following command-line examples:
 ./superMarco --stack < infile > outfile
 ./superMarco --queue --output M < infile > outfile
 ./superMarco --stack --output L < infile > outfile
+```
 
 ### Cleaning the Project
 To remove all object files and the executable, run:
