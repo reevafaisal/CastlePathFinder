@@ -19,7 +19,7 @@ This project involves implementing a pathfinding game in C++, where Marco must n
 - `test-n-flags.txt`: Custom test files to validate the functionality of the program.
 - `Error_messages.txt`: Listing of valid error messages.
 
-### Note: 
+#### Note: 
 The file executable file SuperMarco.cpp is available for public view. Due to University policy I am unable to publish the file containing the path finder algorithm, though it is available for viewing upon request.
 
 ## Compilation and Execution
