@@ -40,6 +40,7 @@ To remove all object files and the executable, run:
 
 ```bash
 make clean
+```
 
 ### Input and Output
 
