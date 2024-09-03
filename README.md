@@ -25,3 +25,44 @@ This project involves implementing a pathfinding game in C++, where Marco must n
 To compile the program, run:
 ```bash
 make
+
+### Running the Program
+To run the program, use one of the following command-line examples:
+
+```bash
+./superMarco --stack < infile > outfile
+./superMarco --queue --output M < infile > outfile
+./superMarco --stack --output L < infile > outfile
+
+### Cleaning the Project
+To remove all object files and the executable, run:
+
+```bash
+make clean
+
+### Input and Output
+
+#### Input Modes
+- **Map Mode (M)**: The castle is represented as a series of rooms with walls, minions, warp pipes, and starting/ending positions.
+- **Coordinate List Mode (L)**: The castle is described by listing coordinates of significant features within each room.
+
+#### Output Modes
+- **Map Mode (M)**: The program outputs a map of the castle with the path Marco takes from start to finish.
+- **Coordinate List Mode (L)**: The program outputs a list of coordinates representing Marco's path from start to finish.
+
+### Error Handling
+The program checks for:
+- Invalid command-line arguments (e.g., specifying both `--stack` and `--queue`).
+- Invalid map characters or coordinates in the input file.
+- Rooms, rows, or columns that exceed the specified dimensions.
+
+If any of these errors are encountered, the program outputs an informative error message to `stderr` and exits with a status code of `1`.
+
+### Testing
+Test files are named `test-n-flags.txt` and should be placed in the same directory as the source code. Each test file corresponds to a specific configuration of the routing and output modes.
+
+To test the program with a specific test file, use the following command:
+
+```bash
+./superMarco < test-n-flags.txt > test-n-output.txt
+
