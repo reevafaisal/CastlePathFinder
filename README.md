@@ -14,7 +14,7 @@ This project involves implementing a pathfinding game in C++, where Marco must n
 
 ## Files Included
 - `Makefile`: Automates the build process, generating the `superMarco` executable.
-- `*.cpp` and `*.h` files: Source code implementing the pathfinding algorithms, input/output processing, and error handling.
+- `*.cpp` and `*.h` files: Implementation of the pathfinding algorithms, input/output processing, and error handling.
 - `p1-rescue-the-countess-files.tgz`: Contains sample input files, a project identifier, error message listings, and additional resources.
 - `test-n-flags.txt`: Custom test files to validate the functionality of the program.
 - `Error_messages.txt`: Listing of valid error messages.
